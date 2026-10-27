@@ -1,0 +1,43 @@
+/* 教材のため、固定幅・tableによる段組・小さい文字を意図的に使用。 */
+body { margin: 8px; color: #222; background: #ffffeb; font-family: "ＭＳ Ｐ明朝", "MS PMincho", "Yu Mincho", serif; font-size: 13px; line-height: 1.5; }
+a:link { color: #0000ee; text-decoration: underline; }
+a:visited { color: #551a8b; }
+a:hover { color: #cc0000; }
+table { font-size: inherit; }
+.shell { width: 970px; border-spacing: 0; }
+.sidebar { width: 158px; padding: 10px 14px 10px 4px; vertical-align: top; background: #e7ebd4; border-right: 1px solid #888; }
+.main { width: 770px; vertical-align: top; padding: 0 0 15px 18px; }
+.side-title { text-align: center; font-size: 24px; color: #663300; letter-spacing: 3px; margin: 4px 0; }
+.side-sub { font-size: 11px; text-align: center; }
+.sidebar ul { padding-left: 19px; margin: 15px 0; }
+.sidebar li { margin: 10px 0; }
+.sidebar hr { border: 0; border-top: 1px solid #999; }
+.small { font-size: 11px; }
+.tiny { font-size: 10px; }
+.red { color: #b00000; }
+.green { color: #006633; }
+.center { text-align: center; }
+.right { text-align: right; }
+.masthead { text-align: center; padding: 5px 0 9px; border-top: 4px double #667744; border-bottom: 4px double #667744; }
+.masthead h1 { font-size: 32px; color: #663300; letter-spacing: 8px; margin: 4px 0; }
+.masthead p { margin: 3px 0; }
+.notice { border: 1px solid #ab8d4d; background: #fff9d4; padding: 4px; margin: 8px 0; }
+.demo { font: 11px/1.5 sans-serif; color: #555; margin: 0 0 7px; }
+.columns { width: 100%; border-spacing: 7px 0; margin: 12px 0; }
+.columns td { vertical-align: top; }
+.rail { width: 174px; }
+.box { border: 1px solid #999; margin: 0 0 12px; padding: 7px; }
+.box h3 { font-size: 13px; color: #553300; background: #e4ddbb; margin: -7px -7px 7px; padding: 3px 5px; }
+h2 { font-size: 17px; color: #663300; border-bottom: 1px solid #887744; padding: 2px 4px; background: #eeebd2; margin: 16px 0 9px; }
+h3 { font-size: 14px; }
+p { margin: 8px 0; }
+.data { width: 100%; border-collapse: collapse; margin: 9px 0; }
+.data th,.data td { border: 1px solid #999; padding: 5px 7px; text-align: left; vertical-align: top; }
+.data th { background: #e9e5ce; font-weight: normal; }
+.photo { border: 1px solid #777; padding: 3px; background: #fff; }
+.counter { background: #171717; color: #83fc76; font: bold 17px monospace; letter-spacing: 3px; border: 3px inset #aaa; padding: 0 4px; }
+.new { font: bold 10px Arial,sans-serif; color: #f00; }
+.footer { border-top: 1px solid #999; text-align: center; font-size: 11px; padding-top: 8px; margin-top: 22px; }
+.navline { text-align: center; font-size: 12px; margin: 9px 0; }
+.stamp { border: 3px double #944; color: #944; padding: 5px; display: inline-block; font-size: 17px; }
+/* スマートフォン対応は改善演習の対象として未実施。 */
